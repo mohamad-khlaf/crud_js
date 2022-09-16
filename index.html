@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>curds</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+  </head>
+  <body> 
+    <section class="curds"> 
+      <header> 
+        <h1>CURDS </h1>
+        <P>products Management system </P>
+      </header>
+      <div class="inputs"> 
+        <input class="title" type="text" id="title" placeholder="title">
+        <div class="holder-price"> 
+          <input class="price" type="number" id="price" placeholder="price">
+          <input class="tex" type="number" id="tex" placeholder="tex">
+          <input class="ads" type="number" id="ads" placeholder="ads">
+          <input class="dic" type="number" id="dic" placeholder="dic"><small class="total" id="total">123456</small>
+        </div>
+        <input class="count" type="number" id="count" placeholder="count">
+        <input class="category" type="text" id="category" placeholder="category">
+        <button class="create" id="create">create</button>
+        <button class="create" id="rest">rest inputs</button>
+      </div>
+      <div class="outputs">
+        <div class="search-block"> 
+          <input class="search" type="text" id="search" placeholder="search">
+          <div class="btn-search"> 
+            <button class="btn-search-title" id="btn-search-title">search by title</button>
+            <button class="btn-search-category" id="btn-search-category">search by category</button>
+          </div>
+        </div>
+        <div id="deleteAll">        </div>
+        <table> 
+          <thead> 
+            <tr> 
+              <th>id </th>
+              <th>title </th>
+              <th>price </th>
+              <th>tex </th>
+              <th>ads </th>
+              <th>discount </th>
+              <th>total </th>
+              <th>category </th>
+              <th>update </th>
+              <th>delete </th>
+            </tr>
+          </thead>
+          <tbody id="tbody"> </tbody>
+        </table>
+      </div>
+    </section>
+    <script src="./js/home.js"></script>
+  </body>
+</html>
