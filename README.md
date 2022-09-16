@@ -1,3 +1,3 @@
-# curd_js
+# crud
 
-(curd)[https://mohamad-khlaf.github.io/curd_js/]
+[crud](https://mohamad-khlaf.github.io/curd_js/)
